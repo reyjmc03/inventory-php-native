@@ -1,0 +1,73 @@
+/*||========================================================||
+ *|| PROGRAMMER	  		: 	JOSE MARI CABALLA REY		 	||
+ *|| TYPE OF WEBSITE 	: 	AN INVENTORY MANAGEMENT SYSTEM	||
+ *|| NAME OF WEBSITE 	: 	INVENTORY MANAGEMENT SYSTEM	 	||	
+ *|| VERSION		  	: 	1.0	   						 	||
+ *|| TYPE OF FILE		: 	CSS FILE					 	||
+ *|| FILE NAME			: 	STYLE.CSS	   				 	||
+ *|| DATE DEVELOPED 	: 	11 SEPTEMBER 2013 			   	||	
+ *||========================================================||
+ */
+
+      		/* Wrapper for page content to push down footer */
+      		#wrap 
+      		{
+        		min-height: 100%;
+       	 		height: auto !important;
+        		height: 100%;
+        		/* Negative indent footer by it's height */
+        		margin: 0 auto -60px;
+      		}
+
+      		/* Set the fixed height of the footer here */
+      		#push,#footer 
+      		{
+       	 		height: 60px;
+      		}
+      		#footer 
+      		{
+        		background-color: #000000;
+      		}
+
+      		/* Lastly, apply responsive CSS fixes as necessary */
+      		@media (max-width: 767px) 
+      		{
+        		#footer 
+        		{
+          		margin-left: -20px;
+          		margin-right: -20px;
+          		padding-left: 20px;
+          		padding-right: 20px;
+        		}
+      		}
+
+      		/* Custom page CSS
+      		-------------------------------------------------- */
+      		/* Not required for template or sticky footer method. */
+      		.container 
+      		{
+        		width: auto;
+        		max-width: 680px;
+      		}
+      		.container .credit 
+      		{
+        		margin: 20px 0;
+      		}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<< CSS DATABASE TABLE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */			
+	#dbtable
+	{
+		border-collapse:collapse;
+	}
+
+	#dbtable tr, #dbtable td, #dbtable th
+	{
+		border: 1px solid #999999;
+	}
+	
+	#dbtable th
+	{
+		height:20px;
+		line-height:20px;
+		background-color:#CCCCCC;
+	}
